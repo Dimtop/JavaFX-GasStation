@@ -1,0 +1,59 @@
+
+.root{
+	-fx-background-color:white;
+}
+.baseContainer{
+	 -fx-alignment: center ;
+}
+
+
+.cardPromt,.fuelPrompt,.moneyPrompt,.fuelIndicator,.moneyIndicator{
+	-fx-font-weight:bold;
+	-fx-font-size:24px;
+	-fx-font-family:'Calibri';
+
+}
+
+.cardNumber,.moneyAmount{
+
+	-fx-font-size:20px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
+.cardWarning,.moneyDecimalWarning,.finalPromt{
+	-fx-font-size:16px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
+.error{
+	-fx-text-fill:red;
+	-fx-font-size:16px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
+.submitButton{
+	-fx-font-size:16px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
+.petrolButton,.oilButton,.gasButton,.startButton,.stopButton{
+		-fx-font-size:16px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
+.pressedButton{
+	
+	-fx-background-color:gray;
+}
+
+.fuelAmount,.moneyCost{
+		-fx-font-size:72px;
+	-fx-font-family:'Calibri';
+	-fx-alignment:center;
+}
+
